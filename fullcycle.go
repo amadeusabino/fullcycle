@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "os"
 
 func main() {
-	fmt.Println("Full Cycle Rocks!!")
+	os.Stdout.WriteString("Full Cycle Rocks!!\n")
 }
